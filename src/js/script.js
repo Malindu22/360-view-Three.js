@@ -1,0 +1,8 @@
+import * as THREE from 'three';
+import * as PANOLENS from 'panolens-three';
+
+const renderer = new THREE.WebGL1Renderer();
+
+renderer.setSize(window.innerWidth,window.innerHeight);
+
+document.body.appendChild(renderer.domElement); 

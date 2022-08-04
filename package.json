@@ -1,0 +1,20 @@
+{
+  "name": "three-js-360-panolens",
+  "version": "1.0.0",
+  "description": "three-js 360 image view using panolens.js lib",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel ./src/index.html"
+  },
+  "type": "module",
+  "author": "Malindu Gimhan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "panolens-three": "^1.0.14",
+    "three": "^0.143.0"
+  }
+}
